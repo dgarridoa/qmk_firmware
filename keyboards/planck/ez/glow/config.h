@@ -23,3 +23,5 @@
 
 #undef PRODUCT
 #define PRODUCT Planck EZ Glow
+
+#define ORYX_CONFIGURATOR
