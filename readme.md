@@ -34,3 +34,9 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+# Compile and flash Planck/ez/glow
+```
+qmk compile -kb planck/ez/glow -km default
+qmk flash -kb planck/ez/glow -km default
+```

@@ -26,8 +26,7 @@ enum planck_layers {
   _RAISE,
   _PLOVER,
   _ADJUST,
-  _NUMPAD,
-  _MAYUS
+  _NUMPAD
 };
 
 enum planck_keycodes {
@@ -42,7 +41,6 @@ enum planck_keycodes {
 #define LOWER MO(_LOWER)
 #define RAISE MO(_RAISE)
 #define NUMPAD MO(_NUMPAD)
-#define MAYUS MO(_MAYUS)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -376,4 +374,3 @@ bool music_mask_user(uint16_t keycode) {
       return true;
   }
 }
-
