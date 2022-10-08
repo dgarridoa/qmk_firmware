@@ -40,3 +40,9 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 qmk compile -kb planck/ez/glow -km default
 qmk flash -kb planck/ez/glow -km default
 ```
+
+# Compile and flash Preonic/rev3
+```
+qmk compile -kb preonic/rev3 -km dgarridoa
+qmk flash -kb preonic/rev3 -km dgarridoa
+```
